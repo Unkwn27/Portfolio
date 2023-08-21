@@ -1,0 +1,319 @@
+body {
+    background-color: #FFF;
+    margin: 0 auto;
+  }
+
+header {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,244,175,1) 0%,rgba(0,212,255,1) 100%);
+    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+
+ul {
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: center;
+    padding-left: 500px;
+    
+  }
+
+li {
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 80px;  
+    padding-right: 50px;
+  }
+
+li:hover {
+    color: goldenrod;
+}
+
+
+.Home{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,244,175,1) 0%,rgba(0,212,255,1) 100%);
+    position: relative;
+    top:45px;
+    padding: 40px;
+    padding-left: 250px;
+    padding-bottom:200px;
+    z-index: 8;
+}
+
+
+.Introd{
+  display: inline-block;
+}
+
+
+.prof{
+    left: 400px;
+    display: inline-block;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 10px;
+    
+  }
+  
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  /* Facebook */
+.fa-whatsapp {
+    background: #000000;
+    color: white;
+    
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #000000;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #000000;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #000000;
+    color: white;
+  }
+
+
+/*skills*/
+
+.skills{
+  padding: 150px 150px;
+  z-index: 10;
+}
+
+.Java{
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.Python{
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.Cpp{
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.HTML{
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.CSS{
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.Android_Studio{
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+#myskills{
+  border-bottom: 2px solid silver;
+  padding-bottom: 10px;
+  font-weight: 600;
+  color: silver;
+}
+
+#l_java{
+  padding-left: 50px;
+  padding-right: 122px;
+}
+#l_python{
+  padding-left: 50px;
+  padding-right: 108px;
+}
+#l_cpp{
+  padding-left: 50px;
+  padding-right: 122px;
+}
+#l_html{
+  padding-left: 50px;
+  padding-right: 108px;
+}
+#l_css{
+  padding-left: 50px;
+  padding-right: 122px;
+}
+#l_astud{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+h1{
+    padding-top: 150px;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+p{
+    padding-top: 20px;
+    font: 1em sans-serif;
+}
+
+a{
+  color: #000000;
+}
+
+progress[value] {
+  width: 250px;
+  height: 20px;
+}
+progress{
+  accent-color: rgb(255, 229, 79);
+}
+
+
+/*skills end*/
+
+/*resume starts*/
+
+.resume{
+  padding: 0px 150px;
+  padding-bottom: 200px;
+}
+
+#resume{
+  border-bottom: 2px solid silver;
+  padding-bottom: 10px;
+  color: silver;
+  font-weight: 600;
+}
+#qual{
+  padding-bottom: 30px;
+}
+
+embed{
+  width: 1000px;
+  height: 1300px;
+}
+
+/*resume ends*/
+
+/*footer*/
+
+footer{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,244,175,1) 0%,rgba(0,212,255,1) 100%);
+  padding: 30px;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+
+#footerid{
+  color: black;
+  font-weight:800;
+  text-align: center;
+  font-size: 26px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.fa-phone {
+  background: #000000;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  
+}
+
+#talk{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  display: inline-block;
+}
+#number{
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  font-weight: 600;
+}
+.end{
+  text-align: center;
+}
+/*footer end*/
+
+#reth{
+    position: absolute;
+    height: 451px;
+    width: 496px;
+    left:950px;
+    top: 150px;
+    border: 5px  #000000;
+    border-radius: 20%;
+    border-bottom-color: #FFF;
+    z-index: 9;
+}
+
+
+
+#circle{
+    position: absolute;
+    height: 480px;
+    width: 480px;
+    left:950px;
+    top: 180px;
+    background-color: #fbff00;
+    border-radius: 50%;
+    z-index: 8;
+}
+
+#circle1{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    left:1300px;
+    top: 150px;
+    background-color: #000000;
+    border-radius: 50%;
+    z-index: 7;
+}
+
+#circle2{
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    left: 960px;
+    top: 190px;
+    background-color: #000000;
+    border-radius: 50%;
+    z-index: 7;
+}
+
+#port_text{
+  position: fixed;
+  color: #000000;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  width: 80px;  
+  padding-right: 50px;
+  padding-left: 50px;
+}
